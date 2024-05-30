@@ -1,48 +1,43 @@
-![Imagem de capa do curso. O título é "3519 - Node.js e terminal" e o subtítulo é "Dominando o ambiente de desenvolvimento front-end".](./thumb.png)
+<h1 align="center"> Projeto VidFlow Nodejs </h1>
 
-# VidFlow
+<div align="center">
 
-O VidFlow é uma plataforma de compartilhamento de vídeos.
+  <a href="https://github.com/coelhoalexandre/projeto-alura-codeconnect/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a> <img src="https://img.shields.io/badge/Completo-lightgreen.svg" alt="Completo">
 
-![Captura de tela do Vidflow.](./vidflow.png)
+</div>
 
-## 🔨 Funcionalidades do projeto
+## Sumário
 
-Atualmente, o visual do projeto e sua funcionalidade de buscar em uma API pelas informações dos vídeos já estão prontos.
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Objetivos do Projeto](#objetivos-do-projeto)
+- [Autor](#autor)
 
-Agora, o time de desenvolvimento do VidFlow decidiu aplicar o uso de novas ferramentas que irão melhorar a qualidade do código do projeto, como o ESLint, Prettier, Axios e o Vite.
+## Sobre o Projeto
 
-Para isso, aprenderemos a utilizar o **Node.js**, necessário para aplicar todas essas ferramentas.
+Projeto do curso [Node.js e terminal: dominando o ambiente de desenvolvimento front-end](https://cursos.alura.com.br/course/node-js-terminal-ambiente-desenvolvimento-front-end), instruido por [**Antônio Evaldo**](https://github.com/antonio-evaldo). Esse projeto tem como objetivo ensinar como usar node para melhorar o desenvolvimento front-end.
 
-## ✔️ Técnicas e tecnologias utilizadas
+## Objetivos do Projeto
 
-- Node.js
-- NPM
-- Os pacotes ESLint, Prettier, JSON Server, Axios e Vite
-- Vercel
+- Aprender a configurar um ambiente de desenvolvimento front-end usando Node;
+- Entender a diferença entre dependências de desenvolvimento e de produção;
+- Gerenciar pacotes do Node com o NPM;
+- Utilizar o ESLint, JSON server e o Prettier para garantir a qualidade do código em projetos front-end;
+- Utilizar comandos com os scripts do NPM;
+- Utilizar o Vite para consumir dependências de produção e realizar deploy do projeto.
 
-## Link do Figma
+## Autor
+Meu nome é **Alexandre Coelho**, sou autor deste ReadMe e estudante de Desenvolvimento Web. 
 
-[Acesse o Figma do Vidflow](https://www.figma.com/file/a0crwitCtGmNIQW0RVIs5H/VidFlow-%7C-Curso-Js---Consumindo-dados-de-uma-API?node-id=0%3A1&mode=dev).
+Logo abaixo estão os meus principais links, fique a vontade de acessar o que mais lhe interessar:
 
-## 🛠️ Abrir e rodar o projeto
+<br>
 
-Após baixar ou clonar o projeto deste repositório, você precisa ter o [Node.js](https://nodejs.org/) e o [`json-server`](https://www.npmjs.com/package/json-server) instalados.
+<br>
 
-Caso não tenha o `json-server` instalado globalmente, execute o seguinte comando:
+<div align="center">
 
-```bash
-npm install -g json-server@0.17.4
-```
-
-Com o Node.js e o `json-server` instalados, execute o seguinte comando para disponibilizar a API local de vídeos:
-
-```bash
-json-server --watch backend/videos.json
-```
-
-Em seguida, abra o `index.html` no navegador e o VidFlow já pode ser visualizado!
-
-## 📚 Mais informações do curso
-
-Este repositório avança até o uso do ESLint e Prettier, mas ainda não está utilizando o Vite junto com o Axios. Para usar o Vite, foi necessário a migração do código para um novo projeto, que você encontra [nesse repositório](https://github.com/alura-cursos/3519-nodejs-vidflow-vite).
+<a href = "https://github.com/coelhoalexandre"><img src="https://img.shields.io/badge/GitHub-%23333?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"></a>
+<a href="https://www.linkedin.com/in/-coelhoalexandre/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"></a>
+<a href = "mailto:alexandrecoelhocontato@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-critical?style=for-the-badge&logo=gmail&logoColor=white" target="_blank" alt="Gmail Badge"></a>
+<a href = "https://cursos.alura.com.br/user/coelhoalexandre" target="_blank"><img src="https://img.shields.io/badge/Alura-0747a6?style=for-the-badge&logo=alura&logoColor=white" target="_blank" alt="Alura Badge"></a>
+<a href = "https://www.frontendmentor.io/profile/coelhoalexandre" target="_blank"><img src="https://img.shields.io/badge/Frontend_Mentor-white?style=for-the-badge&logo=frontendmentor&logoColor=blue" alt="FrontEnd Mentor Badge">
